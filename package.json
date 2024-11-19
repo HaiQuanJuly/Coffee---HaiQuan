@@ -1,0 +1,16 @@
+{
+  "name": "coffee-haiquan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "haiquanFE",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
